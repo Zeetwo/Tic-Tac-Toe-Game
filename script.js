@@ -28,12 +28,10 @@ boxes.forEach((box) => {
         console.log("box was clicked");
         if(turn0){
             box.innerText ="0";
-            document.querySelector(".box").style.color ="Black";
             turn0 = false;
         }
         else{
             box.innerText ="X";
-            document.querySelector(".box").style.color ="white";
             turn0=true;
         }
         box.disabled =true;
